@@ -12,7 +12,7 @@ window.onload = () => {
         setTimeout(() => {
           videoEl.pause();
           nextBtn.classList.remove("hidden");
-        }, 5000); // 2000 ms = 2 detik
+        }, 2000); // 2000 ms = 2 detik
       };
 
       videoEl.play().catch(() => {});
