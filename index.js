@@ -2,7 +2,7 @@ window.onload = () => {
   const videoEl = document.getElementById("videoPlayer");
   const nextBtn = document.getElementById("nextBtn");
 
-  fetch("video2.mp4")
+  fetch("video1.mp4")
     .then(res => res.blob())
     .then(blob => {
       const blobUrl = URL.createObjectURL(blob);
